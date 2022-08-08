@@ -8,6 +8,6 @@ public class DefaultMessageListener implements MessageListener<String, String>{
 
 	@Override
 	public void onMessage(ConsumerRecord<String, String> data) {
-		System.out.println("Default LIstener. Message =" + data.value());
+		System.out.println("Default Listener. Message =" + data.value());
 	} 
 }
