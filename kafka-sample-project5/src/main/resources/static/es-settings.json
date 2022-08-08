@@ -1,0 +1,13 @@
+{
+	"index.mapping.total_fields.limit": "10000",
+  "index.refresh_interval": "1s",
+  "index.blocks.read_only_allow_delete": "false",
+  "index.query.default_field": [
+    "*"
+  ],
+  "index.priority": "1",
+  "index.number_of_replicas": "1",
+  "index.routing.allocation.include._tier_preference": "data_content",
+  "index.max_docvalue_fields_search": "200",
+  "index.write.wait_for_active_shards": "1"
+}
