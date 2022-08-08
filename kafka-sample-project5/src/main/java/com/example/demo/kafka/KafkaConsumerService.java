@@ -88,9 +88,9 @@ public class KafkaConsumerService {
 			             System.out.println("commit@@");
 			              
 	        			if(test) {
-	        				System.out.println("insert success.");
+	        				System.out.println("insert success");
 	        			}else {
-	        				System.out.println("insert failed.");
+	        				System.out.println("insert failed");
 	        			}
 	        			
 	        		} catch (ParseException e) {
